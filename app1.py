@@ -18,6 +18,10 @@ import base64
 import time
 import nltk
 
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('punkt')
+
 nltk.data.path.append('nltk_data')
 warnings.filterwarnings("ignore")
 
