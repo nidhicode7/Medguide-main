@@ -7,3 +7,6 @@ requests
 scikit-learn
 streamlit
 googlesearch-python
+wikipedia-api
+
+
