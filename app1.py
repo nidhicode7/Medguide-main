@@ -540,3 +540,11 @@ if st.session_state.step == 6:
         st.write(f"Profile Link: {doctor['Doctors Link']}")
     else:
         st.write("No available doctors for this specialization.")
+hide_st_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_st_style, unsafe_allow_html=True)
